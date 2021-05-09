@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Rubic";
+  src: url("./fonts/Rubik-VariableFont_wght.ttf");
+}
+:root{
+  --header-bg: #2d2d2de8;
+  --max-width: 
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubic", "Roboto", sans-serif;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+li{
+  list-style: none;
+}
+body {
+  width: calc(100vw - (100vw - 100%));
+  max-width: 100vw;
+  background-image: url('./media/background.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#react-root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
